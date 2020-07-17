@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Generator</title>
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/2970/2970785.svg">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+
+  <div id="component">
+    <h1>Darken ∙ Lighten</h1>
+    <div class="current-color"></div>
+    <label for="color">Choose color</label>
+    <input name="color" type="text" value="#6633cc">
+    <label for="lumiance">Luminosity</label>
+    <input name="lumiance" min="-100" max="100" value="0" type="range">
+    <label for="lumiance">New Value</label>
+    <input name="newvalue" type="text" disabled>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,83 @@
+html {
+  font-size: 50%;  
+}
+
+body {
+  min-height: 100%;
+  
+  display:flex;
+  place-content: center;
+}
+
+html, body, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+#component {
+  display:flex;
+  flex-direction: column;
+
+  width: 80%;
+  max-width: 500px;
+}
+
+h1 {
+  color: #543;
+  margin-bottom: 32px;
+  
+  font-size: 3rem;
+  text-align: center;
+}
+
+.current-color {
+  width: 100%;
+  height: 500px;
+  
+  margin-bottom: 32px;
+  
+  box-shadow: 1px 2px 4px -2px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+label {
+  color: #543;
+
+  text-transform:uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  
+  margin-bottom: 4px;
+}
+
+input[type=text], button {
+  padding: 8px 16px;
+  
+  border: 1px solid #eee;
+  border-radius: 4px;
+  
+  margin-bottom: 16px;
+}
+
+input {
+  margin-bottom: 16px;
+}
+
+[name=newvalue] {
+  text-transform: uppercase;
+}
+
+@media(max-width: 420px) {
+  html {
+    font-size: 45%;
+  }
+
+  #component {
+    width: 200px;
+  }
+
+  .current-color {
+    height: 200px;
+  }
+}
