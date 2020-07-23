@@ -26,7 +26,7 @@ This project was developed with the following technologies:
 -  [CSS](https://www.w3schools.com/css/)
 
 ## :information_source: How To Use
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs]. From your command line:
+To clone and run this application, use from your command line:
 ```bash
 # Clone this repository
 $ git clone https://github.com/IgorMarchi/ColorGenerator ColorGenerator
