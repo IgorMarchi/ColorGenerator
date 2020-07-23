@@ -17,7 +17,7 @@ Get different tons of your color with the Color Generator.
 
 
 <p align="center">
-  <img alt="App Demo" src="GitHub/colors.gif">
+  <img alt="App Demo" src="gitHub/colors.gif">
 </p>
 
 ## :rocket: Technologies
